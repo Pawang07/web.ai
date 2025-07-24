@@ -4,7 +4,9 @@
   "description": "a journey to master backend",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "node index.js"
+
   },
   "keywords": [
     "node",

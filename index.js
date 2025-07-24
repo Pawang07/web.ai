@@ -4,6 +4,8 @@ const express = require('express')
 const app = express()
 const port = 3000
 
+
+
 app.get('/', (req, res) => {
   res.send('Hello Pawan!')
 })
@@ -15,6 +17,6 @@ app.get('/journey',(req,res)=>{
 app.get('/promise',(req,res)=>{
     res.send("ENCODED")
 })
-app.listen(porprocess.env.PORT, () => {
+app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
