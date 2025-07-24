@@ -1,0 +1,19 @@
+{
+  "name": "5cr",
+  "version": "1.0.0",
+  "description": "a journey to master backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "5cr"
+  ],
+  "author": "Pawan Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0"
+  }
+}
